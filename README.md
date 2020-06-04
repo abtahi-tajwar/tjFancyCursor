@@ -4,9 +4,9 @@
 
 ## How to use
 ### Required Files
--tjFancyCursor.js
--tjFancyCursor.css
-*Also provided with an index.js file for support *
+- tjFancyCursor.js
+- tjFancyCursor.css
+*Also provided with an index.js file for support*
 ## Adding Cursor:
 - Create an html file example: index.html
 - Include script tjFancyCursor.js at the end of the body example: <script src="tjFancyCursor.js"></script>
