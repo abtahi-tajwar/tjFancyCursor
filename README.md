@@ -2,12 +2,12 @@
 - by tj
 *author: Abtahi Tajwar*
 
-##How to use
-###Required Files
+## How to use
+### Required Files
 -tjFancyCursor.js
 -tjFancyCursor.css
 *Also provided with an index.js file for support *
-##Adding Cursor:
+## Adding Cursor:
 - Create an html file example: index.html
 - Include script tjFancyCursor.js at the end of the body example: <script src="tjFancyCursor.js"></script>
 - Link tjFancyCursor.css at head example: <link rel="stylesheet" href="tjFancyCursor.css">
@@ -18,7 +18,7 @@
 
 DONE!
 
-##Adding Fancy Button
+## Adding Fancy Button
 - Create an html file example: index.html
 - Include script tjFancyCursor.js at the end of the body example: <script src="tjFancyCursor.js"></script>
 - Link tjFancyCursor.css at head example: <link rel="stylesheet" href="tjFancyCursor.css">
