@@ -14,7 +14,7 @@
 - Create a div with class tj-cursor example: <div class="tj-cursor"></div>
 - Create a script file and include it after 'tjFancyCursor.js'
 - In script file call functions below to create buttons and effects
- -tjFancyCursor(*height*, *width*, *button color HTML CSS value*); //Creating Fancy Hover Button
+ 1. tjFancyCursor(*height*, *width*, *button color HTML CSS value*); //Creating Fancy Hover Button
 
 DONE!
 
@@ -25,5 +25,5 @@ DONE!
 - Create a div with class tj-cursor example: <div class="classname"></div>
 - Create a script file and include it after 'tjFancyCursor.js'
 - In script file call functions below to create buttons and effects
- - initTJFloatingContainer(*container class name*, *Link of the button*, *button color HTML CSS value*); //Creating Fancy Hover Button
- - mouseMoveEffect(*container class name*);  //Adding floating effect to the button
+ 1. initTJFloatingContainer(*container class name*, *Link of the button*, *button color HTML CSS value*); //Creating Fancy Hover Button
+ 2. mouseMoveEffect(*container class name*);  //Adding floating effect to the button
