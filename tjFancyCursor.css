@@ -5,11 +5,10 @@
 body {
     height: 100vh;
     width: 100vw;
-    background-color: gray;
     overflow-x: hidden;
 }
 .tj-cursor {
-    position: absolute;
+    position: fixed;
     transform-origin: 50% 50%;
     transition: all 0.05s ease-out;
     height: 70px;
@@ -67,11 +66,11 @@ body {
     background-color: #12DF9B;
     border-radius: 50%;
 }
-.tj-outer:hover .tj-inner {
+.tj-c:hover .tj-inner {
     height: 101%;
     width: 101%;
 }
-.tj-outer:hover .tj-text {
+.tj-c:hover .tj-text {
     letter-spacing: 2px;
 }
 @keyframes tj-rotate {
@@ -94,4 +93,3 @@ Under development
     align-items: center;
     background-color: red;
 }
-

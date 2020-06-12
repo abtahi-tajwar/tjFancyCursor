@@ -7,20 +7,20 @@ function tjFancyCursor(height = 70, width = 70, color="white") {
     cursor.style.border = "1px solid "+color;
 
     document.querySelector("html").addEventListener("mousemove", (event) => {
-        cursor.style.left = event.pageX-35+"px";
-        cursor.style.top = event.pageY-35+"px";
+        cursor.style.left = event.clientX-35+"px";
+        cursor.style.top = event.clientY-35+"px";
     });
 }
 
 //This function should be added to the container
 function initTJFloatingContainer(container_name, link, color = "#12DF9B") {
-    let container = document.querySelector(container_name);    
+    let container = document.querySelector(container_name);
     container.innerHTML += `
         <a class="tj-a" href="${link}">
         <div class="tj-c">
             <div class="tj-outer" style="border: 3px solid ${color}">
                 <div class="tj-inner" style="background-color: ${color}"></div>
-                <p class="tj-text">VIEW PROJECT</p>            
+                <p class="tj-text">VIEW PROJECT</p>
             </div>
         </div>
         </a>
@@ -38,13 +38,11 @@ function makeTJHover(outer) {
 }
 function mouseMoveEffect(container_name) {
     let c = document.querySelector(container_name+" .tj-c");
-    
+
     document.querySelector("html").addEventListener("mousemove", (event) => {
         c.style.transform = "translateX("+event.clientX/6*(-1)+"px) translateY("+event.clientY/6*(-1)+"px)";
     });
 }
-
-//makeTJHover(outer);
 
 tjFancyCursor(100, 100);
 initTJFloatingContainer(".tj-container");
