@@ -37,7 +37,7 @@ function makeTJHover(outer) {
     });
 }
 function mouseMoveEffect(container_name) {
-    let c = document.querySelector(container_name+" .tj-c");
+    let c = document.querySelector(container_name+" .tj-a");
 
     document.querySelector("html").addEventListener("mousemove", (event) => {
         c.style.transform = "translateX("+event.clientX/6*(-1)+"px) translateY("+event.clientY/6*(-1)+"px)";
